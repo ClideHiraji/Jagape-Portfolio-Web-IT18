@@ -52,7 +52,7 @@ img { max-width: 100%; display: block; }
 .arches.three { grid-template-columns: repeat(3, 1fr); }
 .arches.four { grid-template-columns: repeat(4, 1fr); }
 .arch { text-align: center; }
-.arch img { width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 50% 50% 0 0 / 60% 60% 0 0; background: #0b0b0b; padding: 1rem; }
+.arch img { width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 50% 50% 0 0 / 60% 60% 0 0; background: #0b0b0b; padding-bottom: 2rem; }
 .arch.captioned figcaption { color: #e8e8e8; margin-top: 1rem; font-family: "Seasons", Georgia, serif; font-size: 1.3rem; }
 
 .quote-grid { display: grid; grid-template-columns: 1.2fr .8fr; align-items: center; gap: 6rem; }
@@ -126,3 +126,4 @@ img { max-width: 100%; display: block; }
     .contact-grid { grid-template-columns: 1fr; }
 
 }
+
