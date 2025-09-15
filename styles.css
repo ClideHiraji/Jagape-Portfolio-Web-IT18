@@ -47,7 +47,7 @@ img { max-width: 100%; display: block; }
 .about-grid { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 6rem; }
 .about-copy .rule { width: 180px; height: 2px; background: #fff; border: 0; margin-top: 1rem; }
 
-.arches { display: grid; gap: 3rem; align-items: end; }
+.arches { display: grid; gap: 3rem; align-items: start; }
 .arches.two { grid-template-columns: repeat(2, 1fr); }
 .arches.three { grid-template-columns: repeat(3, 1fr); }
 .arches.four { grid-template-columns: repeat(4, 1fr); }
@@ -124,4 +124,5 @@ img { max-width: 100%; display: block; }
     .arches.two { grid-template-columns: 1fr; }
     .arches.four { grid-template-columns: 1fr; }
     .contact-grid { grid-template-columns: 1fr; }
+
 }
