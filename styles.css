@@ -36,6 +36,7 @@ img { max-width: 100%; display: block; }
 .tag { border: 2px solid #000000; border-radius: 40px;background: linear-gradient(80deg, #000000, #e1b75a); color: #fff; padding: .8rem 1.2rem; display: inline-block; margin: 2rem 0 2.6rem; font-size: 1.1rem; }
 .pill { display: inline-block; color: #ffffff; background: linear-gradient(80deg, #000000, #e1b75a); padding: .9rem 1.4rem; border-radius: 999px; text-decoration: none; font-weight: 600;margin: 2rem 0 2.6rem; }
 .pill.ghost { background: transparent; color: #fff; border: 1px solid #fff; }
+.arch figcaption { color: #e8e8e8; margin-top: 1rem; font-family: "Seasons", Georgia, serif; font-size: 1.3rem; }
 
 .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 6rem; }
 .hero-copy .display { margin-bottom: 1rem; }
@@ -126,4 +127,5 @@ img { max-width: 100%; display: block; }
     .contact-grid { grid-template-columns: 1fr; }
 
 }
+
 
